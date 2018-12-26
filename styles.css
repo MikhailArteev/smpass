@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,700');
+
+html,body {
+  margin: 0 auto;
+}
+
+html {
+  background-color: #ffffff;
+}
+
+.newText {
+    width: 1000px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.logo {
+  font-size: 80px;
+  color: rgb(0, 0, 0);
+  font-family: 'Comfortaa', cursive;
+  letter-spacing: -7px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.gen {
+  font-size: 24px;
+  line-height: 100px;
+  color: rgb(0, 0, 0);
+  font-family: 'Comfortaa', cursive;
+  letter-spacing: -2px;
+}
+
+.byfer {
+  font-size: 11px;
+  color: #AFAFAF;
+  font-family: 'Comfortaa', cursive;
+  margin-top: -30px;
+}
+
+.byt {
+  margin-top: 18px;
+}
+
+.byt-gen {
+  font-size: 13px;
+  color: #666666;
+  font-family: 'Comfortaa', cursive;
+  letter-spacing: -1px;
+  padding-left: 0px;
+  text-align: center;
+}
