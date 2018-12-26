@@ -55,6 +55,51 @@ html {
   color: #666666;
   font-family: 'Comfortaa', cursive;
   letter-spacing: -1px;
-  padding-left: 0px;
+  padding: 0px 5px 0px 5px;
   text-align: center;
+}
+
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+{
+  .newText {
+    width: 275px;
+    height: 235px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+  }
+
+  .logo {
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+    font-family: 'Comfortaa', cursive;
+    letter-spacing: -7px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+
+  .gen {
+    font-size: 28px;
+    line-height: 100px;
+    color: rgb(0, 0, 0);
+    font-family: 'Comfortaa', cursive;
+    letter-spacing: -2px;
+  }
+  .byt-gen {
+    font-size: 15px;
+    color: #666666;
+    font-family: 'Comfortaa', cursive;
+    letter-spacing: -1px;
+    padding: 0px 5px 0px 5px;
+    text-align: center;
+  }
 }
