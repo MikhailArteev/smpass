@@ -11,13 +11,13 @@
 
   <div class="newText">
     <span class="logo">Smpass</span>
-    <div class="gen">qDjb7ezUH3</div>
+    <div class="gen" id="random">qDjb7ezUH3</div>
     <div class="byfer">Скопировать в буфер обмена</div>
 
     <div class="byt">
-        <span class="byt-gen">Простой</span>
-        <span class="byt-gen">Безопасный</span>
-        <span class="byt-gen">Ультра</span>
+        <span class="byt-gen"><button onclick="generate_plain()">Простой</button></span>
+        <span class="byt-gen"><button onclick="generatep_safe()">Безопасный</button></span>
+        <span class="byt-gen"><button onclick="generatep_ultra()">Ультра</button></span>
     </div>
 
     <div class="footer">
@@ -29,6 +29,7 @@
 
   </div>
 
-  
+  <script src="js/main.js"></script>
+
 </body>
 </html>
